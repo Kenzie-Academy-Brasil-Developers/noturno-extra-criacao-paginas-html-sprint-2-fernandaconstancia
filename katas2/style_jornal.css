@@ -1,1 +1,88 @@
-/* FOLHA DE ESTILO DA PAGINA DE JORNAL */
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #4141c5;
+  text-align: justify;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+    
+header{
+  border-bottom: 1px solid #ccc;
+  background-color:#e7db28;
+  text-align: center;
+  margin: 0;
+  padding: 0; 
+}
+
+.logo{
+  width: 70px;
+  position:absolute;
+  top:4%;
+  left:17%;
+}
+
+h1{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  text-shadow: 5px 10px 10px rgb(129, 127, 127);
+}
+
+h2{
+  text-align: center;
+  color: rgba(85, 85, 88, 0.89);
+  text-shadow: 5px 10px 10px rgb(129, 127, 127);
+}
+
+nav {
+  background-color:#e7db28; 
+  text-decoration: hidden;
+}
+
+li{
+  display: inline;
+  padding-right: 20px;
+  text-align: right;
+}
+a{
+  text-decoration: none;
+  color: #4141c5;
+}
+a:hover{
+  color:#41403c;
+  text-shadow: 5px 10px 10px rgb(129, 127, 127);
+}
+
+h3{
+  text-align: center;
+  text-shadow: 5px 10px 10px rgb(129, 127, 127);
+}
+
+.imagemsite{
+  width: 250px;
+  height: 150px;
+  box-shadow: 5px 9px 15px #41403c;  
+  border-radius: 10px;
+}
+#autor{
+  font-size: 10px;
+  text-align: center;
+}
+
+p{
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: justify;
+}
+    
+footer{
+  margin:24px;
+  padding-top: 30px;
+  min-height: 100px;
+  text-align: center;
+  background-color:#e7db28; 
+  border-radius: 5px 50px;
+}
+

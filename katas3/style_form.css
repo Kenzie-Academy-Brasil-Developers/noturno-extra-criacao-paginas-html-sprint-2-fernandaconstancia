@@ -1,1 +1,32 @@
 /* FOLHA DE ESTILO DA PAGINA DE FORMULÁRIO */
+body{
+    color:rgba(243, 241, 252, 0.884);
+    background-color: rgb(248, 248, 247); 
+    text-align:center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-image: url(tapete.jpg);  
+    text-shadow: 5px 4px 5px black; 
+      
+}
+div{
+    width: 40%;
+    margin:0px auto;
+    border-radius: 10px;
+    background-color:rgba(241, 2, 133, 0.356);
+    box-shadow: 5px 8px 10px rgba(148, 170, 211, 0.555);
+}
+fieldset{
+    border: 0px;  
+}
+
+input, select{
+    border-color: honeydew;
+    border-radius: 10px;
+}
+textarea{
+    border-radius: 10px;
+    border-color: honeydew;
+}
+#pais{
+    width: 35.7%;
+}

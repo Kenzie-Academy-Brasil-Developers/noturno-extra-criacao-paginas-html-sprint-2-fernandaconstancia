@@ -1,1 +1,22 @@
 /* FOLHA DE ESTILO DA PAGINA DE RECEITAS */
+body{
+    text-align: center;
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border: 0;
+    margin-left: 50px;
+	box-shadow:9px 7px 5px rgba(50, 50, 50, 0.77);
+
+}
+figcaption{ 
+    color: rgb(211, 113, 1);
+}
+li{
+    display:inline-block;
+}
